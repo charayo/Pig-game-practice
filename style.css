@@ -152,3 +152,34 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+.input{
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    top:500px;
+    left:50%;
+    transform: translateX(-50%);
+   border: solid .1px #af2b2be8;
+    border-radius: 4px;
+    color:red;
+}
+.input:focus{
+    outline: none;
+}
+#dev{
+    float: left;
+    display: block;
+    padding-left: 1px;
+    left:2%;
+}
+#tutor{
+    float: right;
+    display: block;
+    padding-right: 1px;
+    right:2%;
+}
+#dev,#tutor{
+    position: absolute;
+    top:582px;
+}
